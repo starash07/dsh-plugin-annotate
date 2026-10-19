@@ -1,4 +1,4 @@
-# dsh-quote-reply · 划词引用回复
+# dsh-plugin-annotate · 划词引用回复
 
 给 DeepSeek Harness **桌面客户端**（Electron）加一个 Codex 风格的“划词引用”：在助手回复里选中一段文字，右键「❝ 在此回答」，写下你的注释；发送消息时注释会跟着一起发出去，并在气泡里以「胶囊 + 小字注释 + 细线 + 正文」的形式呈现。
 
