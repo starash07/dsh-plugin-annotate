@@ -16,7 +16,7 @@
  */
 
 window.__ModuleLoader__.load({
-  id: 'dsh-quote-reply',
+  id: 'dsh-plugin-annotate',
   factory: (require) => {
     const React = require('react')
     const h = React.createElement

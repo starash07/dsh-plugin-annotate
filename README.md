@@ -6,7 +6,7 @@
 
 ## 与原版的差异
 
-1. **换了包名/模块 id**（`dsh-plugin-codex-annotate` → `dsh-quote-reply`）。
+1. **换了包名/模块 id**（`dsh-plugin-codex-annotate` → `dsh-plugin-annotate`）。
    原包名在桌面 profile 里客户端模块始终不注册（宿主已启用，但插槽为空），换名后同样的代码即可正常加载。
 2. **发送时自动带上注释**。
    原版需要点胶囊面板里的「发送」才会拼入引用；现在拦截输入框的 **Enter** 和**主发送按钮**，先拼入引用再走宿主自己的提交，所以正常发送即可。
@@ -23,13 +23,13 @@
 要求：DeepSeek Harness 桌面客户端（或 `dsh web`，但本插件主要针对桌面端验证）。
 
 ```bash
-dsh plugin --profile desktop add github:starash07/dsh-quote-reply
+dsh plugin --profile desktop add github:starash07/dsh-plugin-annotate
 ```
 
 安装后重启桌面客户端。卸载：
 
 ```bash
-dsh plugin --profile desktop remove dsh-quote-reply
+dsh plugin --profile desktop remove dsh-plugin-annotate
 ```
 
 ## 使用

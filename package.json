@@ -1,5 +1,5 @@
 {
-  "name": "dsh-quote-reply",
+  "name": "dsh-plugin-annotate",
   "version": "1.0.0",
   "description": "Codex-style selection quote reply for the DeepSeek Harness desktop client (forked from mar1259/dsh-plugin-codex-annotate)",
   "license": "MIT",
@@ -12,11 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/starash07/dsh-quote-reply.git"
+    "url": "git+https://github.com/starash07/dsh-plugin-annotate.git"
   },
-  "homepage": "https://github.com/starash07/dsh-quote-reply#readme",
+  "homepage": "https://github.com/starash07/dsh-plugin-annotate#readme",
   "bugs": {
-    "url": "https://github.com/starash07/dsh-quote-reply/issues"
+    "url": "https://github.com/starash07/dsh-plugin-annotate/issues"
   },
   "keywords": [
     "dsh",
