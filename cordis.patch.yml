@@ -1,0 +1,3 @@
+- insert:
+    - id: quote-reply
+      name: 'dsh-quote-reply'

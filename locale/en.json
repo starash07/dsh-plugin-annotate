@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Selection Quote Reply",
+    "description": "Select text in an assistant reply and answer it in place; the sent message carries the exact location and the original text."
+  }
+}

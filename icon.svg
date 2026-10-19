@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Selection Quote Reply">
+  <rect x="5" y="8" width="44" height="36" rx="10" fill="#2f6feb"/>
+  <path d="M17 44 L12 55 L29 46 Z" fill="#2f6feb"/>
+  <path d="M17 17h8v11h-5.2c0 4 1.8 6.2 5.6 6.4V39C19 38.6 17 34.8 17 28.6V17Z" fill="#fff"/>
+  <path d="M29 17h8v11h-5.2c0 4 1.8 6.2 5.6 6.4V39C31 38.6 29 34.8 29 28.6V17Z" fill="#fff"/>
+  <circle cx="49" cy="45" r="12" fill="#0f9d58" stroke="#fff" stroke-width="3"/>
+  <path d="M49 38.5v13M42.5 45h13" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

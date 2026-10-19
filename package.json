@@ -1,0 +1,51 @@
+{
+  "name": "dsh-quote-reply",
+  "version": "1.0.0",
+  "description": "Codex-style selection quote reply for the DeepSeek Harness desktop client (forked from mar1259/dsh-plugin-codex-annotate)",
+  "license": "MIT",
+  "author": "starash07",
+  "contributors": [
+    {
+      "name": "mar1259",
+      "url": "https://github.com/mar1259"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starash07/dsh-quote-reply.git"
+  },
+  "homepage": "https://github.com/starash07/dsh-quote-reply#readme",
+  "bugs": {
+    "url": "https://github.com/starash07/dsh-quote-reply/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "quote-reply",
+    "annotation",
+    "context-menu"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
