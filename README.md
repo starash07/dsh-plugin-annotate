@@ -40,6 +40,8 @@ dsh plugin --profile desktop remove dsh-quote-reply
 4. 输入框旁出现 `📎 N 条注释` 胶囊；继续划词可以累积多条
 5. 正常打字，按 **Enter** 或点**发送按钮** —— 注释会随消息一起发出
 
+<img width="129" height="124" alt="image" src="https://github.com/user-attachments/assets/40e0aa14-f0cd-41a6-a399-b8652ce11418" />
+
 点胶囊可以展开当时引用的原文（含消息 id、轮次、段落与字符区间）。
 
 ## 已知限制
